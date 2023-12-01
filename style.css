@@ -1,0 +1,43 @@
+/* purple : 8247FF
+orange : FE8162
+black : 1C1C1C */
+body{
+    background-color: #FDF2EC;
+}
+
+h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 650;
+    letter-spacing: -2px;
+    line-height: 1em;
+    /* paragraph-spacing: 40px; */
+    text-align: center;
+    color: #1C1C1C;
+    text-decoration: none;
+    text-transform: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav img {
+    flex: 0 0 auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+a, button {
+    flex: 0 0 auto;
+    margin-left: 10px;
+}
+
+.emoji{
+    color: #8247FF ;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border-width: fitcontent;
+}
