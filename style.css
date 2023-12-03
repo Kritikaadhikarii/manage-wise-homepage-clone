@@ -256,3 +256,110 @@ h2 {
     transform: translate(-50%, 0);
     margin-bottom: 20px;
 }
+
+
+/* Add your existing styles here */
+
+/* Add your existing styles here */
+
+.four {
+    background-color: #FDF2EC;
+    align-items: center;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #F7F8FD;
+    border: 1px solid #8247FF;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 25px;
+    padding-left: 25px;
+    width: 750px;
+    max-width: 100%; /* Set max-width to 100% to ensure responsiveness */
+    box-sizing: border-box; /* Include padding and border in the box model */
+  }
+  
+  .faq-item h3 {
+    color: #1C1C1C;
+    transition: color 0.3s ease; /* Add transition effect for color change */
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    }
+  
+  .faq-item p {
+    display: none;
+  }
+  
+  .faq-item.active h3 {
+    color: #8247FF; /* Change text color to purple when active */
+  }
+  
+  /* Add your other styles here */
+  
+  /* External CSS */
+
+.five {
+    text-align: center;
+}
+
+.emojii {
+    color: #FE8162;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+    width: 60px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.price {
+    color: #FE8162;
+    background-color: #EDEDFA;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 40px;
+    text-align: left;
+    width: 350px;
+    padding-left: 15px;
+}
+
+.tick-mark {
+    color: greenyellow;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #767575;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.price h2{
+
+    font-size: 25px;
+    text-align: left;
+}
+button:hover {
+    background-color: #1C1C1C;
+}
