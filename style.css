@@ -77,7 +77,7 @@ a:last-child button:hover {
     width: 80%;
     border-radius: 50px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .buttons {
@@ -126,29 +126,29 @@ h2 {
 .newbox {
     background-color: #EDEDFA;
     border-radius: 25px;
-    padding: 20px; /* Add padding for space between content and border */
-    border: 1px solid #8247FF; /* Set border width and color */
-    box-sizing: border-box; /* Include padding and border in the box model */
-    margin-left: 200px; /* Set negative margin to create padding outside the box on the left side */
+    padding: 20px; 
+    border: 1px solid #8247FF; 
+    box-sizing: border-box; 
+    margin-left: 200px; 
 }
 
 .newbox p {
     box-sizing: border-box;
     background-color: #f9f7f5;
     border-radius: 25px;
-    padding: 10px; /* Add padding for space between content and border */
-    font-size: 20px; /* Adjust the font size as needed */
+    padding: 10px; 
+    font-size: 20px; 
     width: 60px;
-    text-align: center; /* Align the text at the center */
+    text-align: center; 
 }
 
 .box {
     background-color: #EDEDFA;
     border-radius: 25px;
-    padding: 20px; /* Add padding for space between content and border */
-    border: 1px solid #8247FF; /* Set border width and color */
-    box-sizing: border-box; /* Include padding and border in the box model */
-    margin-right: 200px; /* Set negative margin to create padding outside the box on the left side */
+    padding: 20px; 
+    border: 1px solid #8247FF; 
+    box-sizing: border-box; 
+    margin-right: 200px; 
 }
 
 
@@ -167,30 +167,30 @@ h2 {
     justify-content: space-between;
     background-color: #EDEDFA;
     border-radius: 25px;
-    padding: 20px; /* Add padding for space between content and border */
-    border: 1px solid #8247FF; /* Set border width and color */
-    margin-left: 100px; /* Increase margin on the left side by 50px */
-    margin-right: 100px; /* Increase margin on the right side by 50px */
+    padding: 20px; 
+    border: 1px solid #8247FF; 
+    margin-left: 90px; 
+    margin-right: 80px; 
 }
 
 .minibox {
-    flex: 0 0 calc(30% - 10px); /* Adjust flex-basis to control the width */
+    flex: 0 0 calc(30% - 10px); 
     margin-bottom: 20px;
     text-align: left;
     background-color: #ffffff;
     border-radius: 25px;
-    padding: 20px; /* Add padding for space between content and border */
-    border: 1px solid #8247FF; /* Set border width and color */
+    padding: 20px; 
+    border: 1px solid #8247FF; 
     height: 400px;
-    margin-right: 20px; /* Set margin between minibox elements */
+    margin-right: 20px; 
 }
 
 .minibox:last-child {
-    margin-right: 0; /* Remove margin for the last minibox to avoid unnecessary spacing */
+    margin-right: 0; 
 }
 
 .minibox img {
-    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-width: 100%; 
 }
 
 
@@ -205,43 +205,43 @@ h2 {
 .threepart1 {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Adjust the gap between threepart1 elements */
+    gap: 20px; 
 }
 
 .blackbox-container {
     display: flex;
     flex-direction: row;
-    gap: 20px; /* Adjust the gap between blackboxes */
+    gap: 20px; 
 }
 
 .blackbox {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #212121; /* Set the background color for the icon */
+    background-color: #212121; 
     border-radius: 15px;
     padding: 20px;
-    margin-bottom: 20px; /* Adjust the margin between blackboxes */
-    color: #ffffff; /* Set the text color for the icon and text */
+    margin-bottom: 20px; 
+    color: #ffffff; 
 }
 
 .blackbox svg {
     background-color: #8247FF;
     border-radius: 25px;
     padding: 10px;
-    width: 40px; /* Adjust the size of the SVG icon */
+    width: 40px; 
     height: 40px;
     text-align: center;
 }
 
 .threepart2 {
     width: 100%;
-    text-align: center; /* Center-align content in threepart2 */
+    text-align: center; 
 }
 
 
 .threepart2 img {
-    max-width: 100%; /* Ensure the image in threepart2 does not exceed its container */
+    max-width: 100%; 
 }
 
 .threepart2 p{
@@ -258,10 +258,6 @@ h2 {
 }
 
 
-/* Add your existing styles here */
-
-/* Add your existing styles here */
-
 .four {
     background-color: #FDF2EC;
     align-items: center;
@@ -270,7 +266,7 @@ h2 {
   .faq-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Align items in the center horizontally */
+    align-items: center; 
   }
   
   .faq-item {
@@ -283,13 +279,13 @@ h2 {
     margin-left: 25px;
     padding-left: 25px;
     width: 750px;
-    max-width: 100%; /* Set max-width to 100% to ensure responsiveness */
-    box-sizing: border-box; /* Include padding and border in the box model */
+    max-width: 100%; 
+    box-sizing: border-box; 
   }
   
   .faq-item h3 {
     color: #1C1C1C;
-    transition: color 0.3s ease; /* Add transition effect for color change */
+    transition: color 0.3s ease; 
     font-family: "Outfit", sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -301,13 +297,9 @@ h2 {
   }
   
   .faq-item.active h3 {
-    color: #8247FF; /* Change text color to purple when active */
+    color: #8247FF; 
   }
   
-  /* Add your other styles here */
-  
-  /* External CSS */
-
   .five {
     text-align: center;
 }
@@ -319,15 +311,15 @@ h2 {
     padding: 10px;
     margin-left: 30px;
     width: 60px;
-    font-weight: bold; /* Add this line to increase font weight */
+    font-weight: bold; 
 }
 
 .price-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 50px; /* Negative margin to offset the margin outside the boxes */
-    margin-right: 50px; /* Negative margin to offset the margin outside the boxes */
+    margin-left: 50px;
+    margin-right: 50px; 
 }
 
 .price {
@@ -371,9 +363,9 @@ button:hover {
 .six {
     text-align: center;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    margin: 0 200px; /* Add margin on left and right side */
+    margin: 0 200px; 
     background-color: white;
 }
 
@@ -388,6 +380,6 @@ button:hover {
 }
 
 .six img {
-    max-width: 100%; /* Ensure the image does not exceed its container */
+    max-width: 100%; 
     margin-top: 20px;
 }
